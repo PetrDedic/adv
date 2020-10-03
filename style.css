@@ -38,6 +38,10 @@ body {
 	/* Firefox */
 }
 
+p {
+  margin-right: 5%;
+}
+
 .topnav {
 	background-color: #232325;
 	overflow: hidden;
@@ -147,12 +151,15 @@ h2 {
   display: inline-block;
   font-size: 6vh;
   margin-left: 5%;
+  margin-right: 5%;
 }
 
 h3 {
   display: inline-block;
   font-size: 3.5vh;
   margin-left: 5%;
+  margin-right: 5%;
+
 }
 .inet {
   margin-top: 5% !important;
@@ -207,7 +214,8 @@ footer{
 }
 
 footer ul {
-    padding-left: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 
     float: left;
     text-decoration: none;
@@ -268,6 +276,16 @@ footer p {
     margin-left: 4.5%;
     margin-right: 4.5%;
   } 
+
+.c5{
+  width: 30% !important;
+  margin-left: 2.5%;
+}
+
+.c5 p {
+  font-size: 2vh !important;
+}
+
 #f2 {
   margin-top: 30%;
 }
@@ -292,6 +310,7 @@ th, td {
   padding: 2%;
   width: 8%;
   border-bottom: 1px solid #f2f2f2;
+  text-align: left;
 }
 
 thead td {
@@ -309,6 +328,17 @@ thead td {
 #desc {
   font-size: 2vh !important;
   margin-left: 5%;
+  max-width: 90%;
+}
+#service p {
+  margin-right: 0;
+}
+
+.about p {
+  font-size: 2vh !important;
+  margin: 5%;
+  margin-right: 5%;
+  max-width: 90%;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -320,7 +350,7 @@ thead td {
 @media only screen and (max-width: 999px) {
 
     #notmobile {
-      display: none;
+      display: none !important;
     }
 
 }
@@ -374,9 +404,20 @@ thead td {
 
   h2 {
     margin-top: 15%;
+    font-size: 5vh;
   }
 
   #f2 {
     margin-top: 90%;
   }
+
+  table {
+    width: 90%;
+    margin: 5%;
+  }
+  .c5{
+    width: 90% !important;
+    margin: 5%;
+  }
+
 }
