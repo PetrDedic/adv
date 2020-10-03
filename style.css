@@ -149,6 +149,11 @@ h2 {
   margin-left: 5%;
 }
 
+h3 {
+  display: inline-block;
+  font-size: 3.5vh;
+  margin-left: 5%;
+}
 .inet {
   margin-top: 5% !important;
 }
@@ -249,7 +254,7 @@ footer p {
 }
 
 #service p {
-  font-size: 3vh !important;
+  font-size: 3vh;
   color: #f2f2f2 !important;
 }
 
@@ -270,6 +275,40 @@ footer p {
 #service span {
   font-size: 10vh !important;
   color: #f2f2f2;
+}
+
+table {
+  margin: 5%;
+  width: 50%;
+  border-collapse: collapse;
+}
+
+#tableheader {
+  border: 0;
+  font-size: 3vh;
+}
+
+th, td {
+  padding: 2%;
+  width: 8%;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+thead td {
+  font-size: 2vh;
+}
+
+#no-bottom {
+  border: 0;
+}
+
+#t2 {
+  margin-top: 10%;
+}
+
+#desc {
+  font-size: 2vh !important;
+  margin-left: 5%;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -334,7 +373,7 @@ footer p {
   }
 
   h2 {
-    margin-top: 100%;
+    margin-top: 15%;
   }
 
   #f2 {
