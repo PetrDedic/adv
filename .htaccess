@@ -1,0 +1,5 @@
+RewriteEngine On 
+RewriteRule sluzby /services.html
+RewriteRule nabidky /offers.html
+RewriteRule kontakty /contacts.html
+RewriteRule o-nas /about.html 
