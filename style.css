@@ -42,6 +42,9 @@ p {
   margin-right: 5%;
 }
 
+#foot p {
+  	margin-right: 0 !important;
+
 .alert {
   padding: 20px;
   background-color: #f44336;
